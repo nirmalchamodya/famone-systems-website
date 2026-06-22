@@ -7,8 +7,21 @@
   <title>Famone Systems | Applied AI & Intelligent Automation</title>
 
   <meta name="description" content="Famone Systems develops applied AI, intelligent automation, data analytics, and research-driven business solutions for growing organizations." />
+  
+  <link rel="icon" type="image/x-icon" href="assets/logos/favicon.ico" />
 
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+  tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        famone: '#006AFF'
+      }
+    }
+  }
+}
+</script>
 </head>
 
 <body class="bg-slate-950 text-white">
@@ -16,8 +29,8 @@
   <!-- Navigation -->
   <header class="fixed top-0 left-0 w-full z-50 bg-slate-950/80 backdrop-blur border-b border-white/10">
     <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="#" class="text-xl font-bold tracking-tight">
-        Famone <span class="text-blue-500">Systems</span>
+      <a href="#" class="flex items-center">
+      <img src="assets/logos/navbar-logo.png" alt="Famone Systems Logo" class="h-24 w-auto">
       </a>
 
       <div class="hidden md:flex items-center gap-8 text-sm text-slate-300">
@@ -28,7 +41,7 @@
         <a href="#contact" class="hover:text-white">Contact</a>
       </div>
 
-      <a href="#contact" class="hidden md:inline-block bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg text-sm font-semibold">
+      <a href="#contact" class="hidden md:inline-block bg-famone hover:opacity-90 px-5 py-2 rounded-lg text-sm font-semibold">
         Book Consultation
       </a>
     </nav>
@@ -39,9 +52,9 @@
     <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
 
       <div>
-        <p class="text-blue-400 font-semibold mb-4">
-          Applied AI • Automation • Data Intelligence
-        </p>
+      <p class="text-famone font-semibold mb-4">
+      Applied AI • Automation • Data Intelligence
+      </p>
 
         <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
           Applied AI Research and Intelligent Automation for Growing Businesses
@@ -53,7 +66,7 @@
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href="#contact" class="bg-blue-600 hover:bg-blue-700 px-7 py-3 rounded-lg font-semibold text-center">
+          <a href="#contact" class="bg-famone hover:opacity-90 px-7 py-3 rounded-lg font-semibold text-center">
             Schedule Consultation
           </a>
 
@@ -66,7 +79,7 @@
       <div class="bg-white/5 border border-white/10 rounded-3xl p-8 shadow-2xl">
         <div class="grid grid-cols-2 gap-4">
           <div class="bg-slate-900 rounded-2xl p-5">
-            <p class="text-3xl font-bold text-blue-400">AI</p>
+            <p class="text-3xl font-bold text-famone">AI</p>
             <p class="text-slate-300 mt-2">Intelligent Automation</p>
           </div>
 
@@ -76,7 +89,7 @@
           </div>
 
           <div class="bg-slate-900 rounded-2xl p-5">
-            <p class="text-3xl font-bold text-blue-400">R&D</p>
+            <p class="text-3xl font-bold text-famone">R&D</p>
             <p class="text-slate-300 mt-2">Applied Research</p>
           </div>
 
@@ -119,7 +132,7 @@
   <section id="services" class="px-6 py-24 bg-white text-slate-950">
     <div class="max-w-7xl mx-auto">
       <div class="max-w-3xl mb-14">
-        <p class="text-blue-600 font-semibold mb-3">Our Capabilities</p>
+        <p class="text-famone font-semibold mb-3">Our Capabilities</p>
         <h2 class="text-3xl md:text-5xl font-bold mb-5">
           Practical AI solutions built around business outcomes
         </h2>
@@ -156,7 +169,7 @@
   <section id="industries" class="px-6 py-24 bg-slate-100 text-slate-950">
     <div class="max-w-7xl mx-auto">
       <div class="max-w-3xl mb-14">
-        <p class="text-blue-600 font-semibold mb-3">Industries We Serve</p>
+        <p class="text-famone font-semibold mb-3">Industries We Serve</p>
         <h2 class="text-3xl md:text-5xl font-bold mb-5">
           Built for businesses that need practical digital transformation
         </h2>
@@ -190,7 +203,7 @@
   <section id="research" class="px-6 py-24 bg-slate-950 text-white">
     <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
       <div>
-        <p class="text-blue-400 font-semibold mb-3">Research & Innovation</p>
+        <p class="text-famone font-semibold mb-3">Research & Innovation</p>
         <h2 class="text-3xl md:text-5xl font-bold mb-6">
           Bridging AI research and real-world implementation
         </h2>
@@ -204,7 +217,7 @@
 
       <div class="bg-white/5 border border-white/10 rounded-3xl p-8">
         <div class="space-y-5">
-          <div class="border-l-4 border-blue-500 pl-5">
+          <div class="border-l-4 border-famone pl-5">
             <h3 class="font-bold">Applied AI Models</h3>
             <p class="text-slate-400 text-sm">Machine learning, deep learning, predictive analytics, and intelligent decision systems.</p>
           </div>
@@ -214,7 +227,7 @@
             <p class="text-slate-400 text-sm">Turning research ideas into working technical prototypes.</p>
           </div>
 
-          <div class="border-l-4 border-blue-500 pl-5">
+          <div class="border-l-4 border-famone pl-5">
             <h3 class="font-bold">Commercial AI Systems</h3>
             <p class="text-slate-400 text-sm">Transforming research outcomes into usable business solutions.</p>
           </div>
@@ -226,7 +239,7 @@
   <!-- About -->
   <section id="about" class="px-6 py-24 bg-white text-slate-950">
     <div class="max-w-5xl mx-auto text-center">
-      <p class="text-blue-600 font-semibold mb-3">About Famone Systems</p>
+      <p class="text-famone font-semibold mb-3">About Famone Systems</p>
       <h2 class="text-3xl md:text-5xl font-bold mb-6">
         A Sri Lankan AI company with global ambition
       </h2>
@@ -239,7 +252,7 @@
   <!-- Contact -->
   <section id="contact" class="px-6 py-24 bg-slate-900 text-white">
     <div class="max-w-4xl mx-auto text-center">
-      <p class="text-blue-400 font-semibold mb-3">Start a Conversation</p>
+      <p class="text-famone font-semibold mb-3">Start a Conversation</p>
       <h2 class="text-3xl md:text-5xl font-bold mb-6">
         Let’s explore how AI can improve your business
       </h2>
@@ -247,15 +260,18 @@
         Contact Famone Systems to discuss automation, analytics, or applied AI opportunities.
       </p>
 
-      <a href="mailto:info@famonesystems.com" class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-semibold inline-block">
+      <a href="mailto:info@famonesystems.com" class="bg-famone hover:opacity-90 px-8 py-4 rounded-lg font-semibold inline-block">
         info@famonesystems.com
       </a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="px-6 py-8 bg-slate-950 border-t border-white/10 text-center text-slate-400 text-sm">
-    <p>© 2026 Famone Systems. All rights reserved.</p>
+  <footer class="px-6 py-10 bg-slate-950 border-t border-white/10 text-center text-slate-400 text-sm">
+  <div class="flex justify-center mb-4">
+    <img src="assets/logos/footer-logo.png" alt="Famone Systems Logo" class="h-48 w-auto">
+  </div>
+  <p>© 2026 Famone Systems. All rights reserved.</p>
   </footer>
 
 </body>
